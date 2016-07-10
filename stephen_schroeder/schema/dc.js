@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 var DC = new mongoose.Schema({
   name: String,
   world: String,
-  powers: Number
+  power: String
 });
 
 module.exports = exports = mongoose.model('dc', DC);
